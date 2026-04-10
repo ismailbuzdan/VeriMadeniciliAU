@@ -1,6 +1,6 @@
-# VeriMadenciligiAU
+# VeriMadeniciliAU
 
-# Temel Fonksiyonlar ile Python Script Çalışması
+## Temel Fonksiyonlar ile Python Script Çalışması
 
 Bu repo, R veya Python'da kullanılan temel fonksiyonlardan yararlanılarak hazırlanmış örnek bir script çalışmasını içermektedir. Çalışma ders teslim formatına uygun olacak şekilde düzenlenmiştir.
 
@@ -16,7 +16,8 @@ Bu repoda toplam 2 ana dosya bulunmaktadır:
 Bu çalışmanın amacı, Python programlama dilinde temel yapıları kullanarak basit bir veri işleme örneği oluşturmaktır. Script içinde temel düzeyde şu yapılar kullanılmıştır:
 
 - Değişkenler
-- Liste ve sözlük yapıları
+- Liste yapıları
+- Sözlük yapıları
 - Fonksiyon tanımlama
 - Döngüler
 - Koşul ifadeleri
@@ -32,21 +33,19 @@ Bu çalışmanın amacı, Python programlama dilinde temel yapıları kullanarak
 
 ## Script İçeriği
 
-Script örnek bir öğrenci not verisi üzerinden çalışmaktadır. Her öğrenci için:
+Script, örnek bir öğrenci not verisi üzerinden çalışmaktadır. Her öğrenci için şu bilgiler işlenmektedir:
 
-- vize notu
-- final notu
-- ortalama
-- harf notu
+- Vize notu
+- Final notu
+- Ortalama
+- Harf notu
 
-hesaplanmaktadır.
-
-Ayrıca sonuçlar ekrana yazdırılmakta ve `sonuclar.csv` adlı dosyaya kaydedilmektedir.
+Ayrıca sonuçlar terminal ekranına yazdırılmakta ve `sonuclar.csv` adlı dosyaya kaydedilmektedir.
 
 ## Nasıl Çalıştırılır
 
 ### 1. Repoyu klonlayın
 
 ```bash
-git clone <GITHUB_REPO_LINKINIZ>
-cd <REPO_ADI>
+git clone https://github.com/ismailbuzdan/VeriMadeniciliAU.git
+cd VeriMadeniciliAU
